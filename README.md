@@ -8,11 +8,11 @@ This is an Armbian Debian Bullseye Image for the H96 MAX TV Box.
 Installation video
 https://youtu.be/uuOujI-yfYU
 
-## My self-created image
+## Self-created image
 Download:
 https://drive.google.com/file/d/1nU2_yQY3Oh7GQYWXxNAR4u5qr25xtTLU/view?usp=share_link
 
-My image was created with the following parameters
+Image created with the following parameters
 ```
 ./compile.sh BOARD=rk3318-box BRANCH=current RELEASE=bullseye BUILD_MINIMAL=yes BUILD_DESKTOP=no KERNEL_ONLY=no KERNEL_CONFIGURE=no COMPRESS_OUTPUTIMAGE=sha,gpg,img
 ```
